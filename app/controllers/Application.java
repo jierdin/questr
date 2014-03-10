@@ -8,7 +8,6 @@ import views.html.*;
 public class Application extends Controller {
 
     public static Result index() {
-        return ok(index.render("Welcome to Questr"));
+        return ok(index.render("Hello World -Tristan's Work Laptop"));
     }
-
 }
